@@ -275,7 +275,7 @@ class RESTfulWebservice extends \Contao\Controller
         }
 
         // Check if class name begins with "Webservice"
-        if (substr((explode('\\', $strClass)[count(explode('\\', $strClass))-1]), 0, 9) != 'Webservice') {
+        if (substr((explode('\\', $strClass)[count(explode('\\', $strClass))-1]), 0, 10) != 'Webservice') {
             // Throw error
             $this->response->sendError(500, sprintf('The class name of %s has to begin with "Webservice"', $strClass . '::' . $strMethod . '()'));
         }
