@@ -1,4 +1,4 @@
-RESTful Webservices extension for Contao
+RESTful Webservices for Contao
 ==================================
 
 The "RESTful Webservices" extension is a helper library for developers to realize RESTful webservices in your own extension
