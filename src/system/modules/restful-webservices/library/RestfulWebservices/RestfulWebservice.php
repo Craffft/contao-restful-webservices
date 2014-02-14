@@ -86,12 +86,12 @@ class RESTfulWebservice extends \Contao\Controller
     {
         $strPath = trim(preg_replace('#' . TL_PATH . '/interface#', '', \Environment::get('requestUri'), 1), '/');
 
-        if (!is_array($GLOBALS['RESTFUL_WEBSERVICE']['ROUTING']) || count($GLOBALS['RESTFUL_WEBSERVICE']['ROUTING']) < 1) {
+        if (!is_array($GLOBALS['RESTFUL_WEBSERVICES']['ROUTING']) || count($GLOBALS['RESTFUL_WEBSERVICES']['ROUTING']) < 1) {
             $this->response->sendError(404);
         }
 
         // Go through each defined routing item
-        foreach ($GLOBALS['RESTFUL_WEBSERVICE']['ROUTING'] as $k => $v) {
+        foreach ($GLOBALS['RESTFUL_WEBSERVICES']['ROUTING'] as $k => $v) {
             // Handle params
             if (!$this->handleParams($strPath, $v['pattern'], $v['requirements'])) {
                 continue;

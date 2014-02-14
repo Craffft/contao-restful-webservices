@@ -27,7 +27,7 @@ Define the webservice "categories"
 ```php
 // systems/modules/mymodule/config/config.php
 
-$GLOBALS['RESTFUL_WEBSERVICE']['ROUTING']['categories'] = array
+$GLOBALS['RESTFUL_WEBSERVICES']['ROUTING']['categories'] = array
 (
     // Define the webservice location (required definition)
     // Callable via http://localhost/mycontao/interface/categories/12/my_token

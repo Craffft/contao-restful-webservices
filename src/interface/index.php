@@ -14,7 +14,7 @@
 /**
  * Initialize the system
  */
-define('TL_MODE', 'RESTFUL_WEBSERVICE');
+define('TL_MODE', 'RESTFUL_WEBSERVICES');
 define('BYPASS_TOKEN_CHECK', true);
 require '../system/initialize.php';
 
