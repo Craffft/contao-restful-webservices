@@ -30,7 +30,7 @@
     },
     "extra":{
         "contao": {
-            "sources":{
+            "symlinks":{
                 "src/system/modules/restful-webservices":"system/modules/restful-webservices",
                 "src/interface":"interface"
             }
