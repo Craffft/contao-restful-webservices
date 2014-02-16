@@ -27,6 +27,12 @@
     "replace": {
         "contao-legacy/restful-webservices": "self.version"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://legacy-packages-via.contao-community-alliance.org/"
+        }
+    ],
     "autoload":{
         "psr-0": {
             "RESTfulWebservices": "src/"
