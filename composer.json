@@ -21,5 +21,12 @@
         "psr-0": {
             "RESTfulWebservices": "src/"
         }
+    },
+    "extra":{
+        "contao": {
+            "sources":{
+                "contao":"system/modules/restful-webservices"
+            }
+        }
     }
 }
