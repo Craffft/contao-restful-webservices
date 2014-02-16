@@ -1,0 +1,35 @@
+{
+    "name":"icodr8/contao-restful-webservices",
+    "description":"RESTful Webservices for Contao OpenSource CMS",
+    "keywords":["contao", "rest", "webservice", "interface", "data"],
+    "type":"contao-module",
+    "homepage":"https://github.com/icodr8/contao-restful-webservices",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Daniel Kiesel",
+            "email":"icodr8@gmail.com",
+            "homepage":"http://daniel-kiesel.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "email":"icodr8@gmail.com",
+        "issues":"https://github.com/icodr8/contao-restful-webservices/issues",
+        "source":"https://github.com/icodr8/contao-restful-webservices"
+    },
+    "require":{
+        "php":">=5.3",
+        "contao/core":">=3.2,<3.3-dev",
+        "contao-community-alliance/composer-installer": "*",
+        "contao-legacy/haste":"*",
+    },
+    "replace": {
+        "contao-legacy/restful-webservices": "self.version"
+    },
+    "autoload":{
+        "psr-0": {
+            "RESTfulWebservices": "src/"
+        }
+    }
+}
