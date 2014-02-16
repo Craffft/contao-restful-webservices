@@ -24,7 +24,7 @@
         "contao-legacy/haste": "*"
     },
     "autoload": {
-        "classmap": ["src/"]
+        "classmap": ["interface/", "system/"]
     },
     "replace": {
         "contao-legacy/restful-webservices": "*"
@@ -32,8 +32,8 @@
     "extra": {
         "contao": {
             "sources": {
-                "src/interface": "interface",
-                "src/system/modules/restful-webservices": "system/modules/restful-webservices"
+                "interface": "interface",
+                "system/modules/restful-webservices": "system/modules/restful-webservices"
             }
         }
     }
