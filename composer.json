@@ -24,9 +24,7 @@
         "contao-legacy/haste": "*"
     },
     "autoload": {
-        "psr-0": {
-            "RESTfulWebservices": "src/"
-        }
+        "classmap": ["src/system/"]
     },
     "extra": {
         "contao": {
