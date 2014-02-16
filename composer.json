@@ -23,9 +23,6 @@
         "contao/core":">=3.2,<3.3-dev",
         "contao-community-alliance/composer-installer": "*"
     },
-    "replace": {
-        "contao-legacy/restful-webservices": "self.version"
-    },
     "repositories": [
         {
             "type": "composer",
