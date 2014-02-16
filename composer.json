@@ -24,13 +24,13 @@
         "contao-legacy/haste": "*"
     },
     "autoload": {
-        "classmap": ["src/system/"]
+        "classmap": ["src/"]
     },
     "extra": {
         "contao": {
-            "symlinks": {
-                "src/system/modules/restful-webservices": "system/modules/restful-webservices",
-                "src/interface": "interface"
+            "sources": {
+                "src/interface": "interface",
+                "src/system/modules/restful-webservices": "system/modules/restful-webservices"
             }
         }
     }
