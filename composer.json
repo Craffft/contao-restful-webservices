@@ -22,7 +22,7 @@
         "php":">=5.3",
         "contao/core":">=3.2,<3.3-dev",
         "contao-community-alliance/composer-installer": "*",
-        "contao-legacy/haste":"*",
+        "contao-legacy/haste":"*"
     },
     "replace": {
         "contao-legacy/restful-webservices": "self.version"
