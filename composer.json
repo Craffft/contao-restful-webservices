@@ -24,7 +24,7 @@
         "contao-legacy/haste": "*"
     },
     "autoload": {
-        "classmap": ["system/"]
+        "classmap": ["src/"]
     },
     "extra": {
         "contao": {
