@@ -21,8 +21,7 @@
     "require":{
         "php":">=5.3.2",
         "contao/core":">=3.2,<3.3-dev",
-        "contao-community-alliance/composer-installer": "*",
-        "contao-legacy/haste":"*"
+        "contao-community-alliance/composer-installer": "*"
     },
     "replace": {
         "contao-legacy/restful-webservices": "self.version"
