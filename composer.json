@@ -26,6 +26,9 @@
     "autoload": {
         "classmap": ["src/"]
     },
+    "replace": {
+        "contao-legacy/restful-webservices": "*"
+    },
     "extra": {
         "contao": {
             "sources": {
