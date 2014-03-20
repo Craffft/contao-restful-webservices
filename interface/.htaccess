@@ -13,6 +13,17 @@
 ##
 <IfModule mod_rewrite.c>
   RewriteEngine On
+
+  ##
+  # If you want to use only https
+  ##
+  #RewriteCond %{HTTP_HOST} !=localhost
+  #RewriteCond %{HTTPS} off
+  #RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+  ##
+  # No matter what url is called, use the index.php
+  ##
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule .* index.php [L]
 </IfModule>
