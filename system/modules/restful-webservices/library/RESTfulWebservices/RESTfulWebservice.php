@@ -21,7 +21,7 @@ namespace RESTfulWebservices;
  * @copyright  Daniel Kiesel 2014
  * @author     Daniel Kiesel <https://github.com/icodr8>
  */
-class RESTfulWebservice extends \Contao\Controller
+class RESTfulWebservice extends \Controller
 {
     /**
      * instance

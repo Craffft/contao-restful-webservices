@@ -72,7 +72,7 @@ namespace MyAppNamespace;
 
 use \Haste\Http\Response\JsonResponse;
 
-class WebserviceCategories extends \RESTfulWebservices\Controller
+class WebserviceCategories extends \RESTfulWebservices\RESTfulController
 {
     public function get()
     {
