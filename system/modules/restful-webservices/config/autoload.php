@@ -24,7 +24,7 @@ ClassLoader::addNamespaces(array
 ClassLoader::addClasses(array
 (
     // Library
-    'RESTfulWebservices\Controller'        => 'system/modules/restful-webservices/library/RESTfulWebservices/Controller.php',
-    'RESTfulWebservices\RESTfulWebservice' => 'system/modules/restful-webservices/library/RESTfulWebservices/RESTfulWebservice.php',
     'RESTfulWebservices\JsonResponse'      => 'system/modules/restful-webservices/library/RESTfulWebservices/JsonResponse.php',
+    'RESTfulWebservices\RESTfulController' => 'system/modules/restful-webservices/library/RESTfulWebservices/RESTfulController.php',
+    'RESTfulWebservices\RESTfulWebservice' => 'system/modules/restful-webservices/library/RESTfulWebservices/RESTfulWebservice.php',
 ));

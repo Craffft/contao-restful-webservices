@@ -16,12 +16,12 @@
 namespace RESTfulWebservices;
 
 /**
- * Class Controller
+ * Class RESTfulController
  *
  * @copyright  Daniel Kiesel 2014
  * @author     Daniel Kiesel <https://github.com/icodr8>
  */
-abstract class Controller extends \Contao\Controller
+abstract class RESTfulController extends \Controller
 {
     /**
      * Is called on a GET request.
