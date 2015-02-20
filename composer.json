@@ -1,21 +1,21 @@
 {
-    "name": "icodr8/contao-restful-webservices",
+    "name": "craffft/contao-restful-webservices",
     "description": "RESTful Webservices for Contao OpenSource CMS",
     "keywords": ["contao", "rest", "webservice", "interface", "data"],
     "type": "contao-module",
-    "homepage": "http://daniel-kiesel.de",
+    "homepage": "http://craffft.de",
     "license": "LGPL-3.0+",
     "authors": [
         {
             "name": "Daniel Kiesel",
-            "email": "icodr8@gmail.com",
-            "homepage": "http://daniel-kiesel.de",
+            "email": "daniel@craffft.de",
+            "homepage": "http://craffft.de",
             "role": "Developer"
         }
     ],
     "support": {
-        "issues": "https://github.com/iCodr8/contao-restful-webservices/issues",
-        "source": "https://github.com/iCodr8/contao-restful-webservices"
+        "issues": "https://github.com/Craffft/contao-restful-webservices/issues",
+        "source": "https://github.com/Craffft/contao-restful-webservices"
     },
     "require": {
         "php": ">=5.3.2",
