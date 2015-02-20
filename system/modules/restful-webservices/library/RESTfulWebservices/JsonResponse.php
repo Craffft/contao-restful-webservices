@@ -6,7 +6,7 @@
  * Copyright (c) 2014 Daniel Kiesel
  *
  * @package RESTfulWebservices
- * @link    https://github.com/icodr8/contao-restful-webservices
+ * @link    https://github.com/craffft/contao-restful-webservices
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  */
 
@@ -19,7 +19,7 @@ namespace RESTfulWebservices;
  * Class JsonResponse
  *
  * @copyright  Daniel Kiesel 2014
- * @author     Daniel Kiesel <https://github.com/icodr8>
+ * @author     Daniel Kiesel <daniel@craffft.de>
  */
 class JsonResponse extends \Haste\Http\Response\JsonResponse
 {
